@@ -1,0 +1,26 @@
+<html>
+<head>
+    {% load staticfiles %}
+<script   src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.4/d3.min.js"></script>
+<script src="{% static 'stock/js/d3pie.js' %}"></script>
+<script src="{% static 'stock/js/canvasjs.js' %}"></script>
+<script src="{% static 'stock/js/canvasjs.min.js' %}"></script>
+<script src="{% static 'stock/js/util.js' %}"></script>
+<script src="{% static 'stock/js/jquery.csv.js' %}"></script>
+<link rel="stylesheet" type="text/css" href="{% static 'stock/css/styles.css' %}" media="screen" />
+</head>
+<body onload = "fetchExpertNames();">
+<div id="pieChart" class="pie"></div>
+<div id="topBuys" class="topBuys"></div>
+<div id="topSells" class="topSells"></div>
+<div id="topHolds" class="topHolds"></div>
+<span id="tableCaption" class="tableCaption"></span><br><br>
+<div id="expertTable"></div>
+<div id ="searchScrip" class="searchScrip">
+	<input id="scripSearch" type = "text" placeholder="Enter company code" />
+	<input type= "button" onClick="searchScrip()" value="Go"/><br><br>
+	<div id="chartContainer" style='height: 300px; width: 500px;'></div>
+</div>
+</body>
+</html>

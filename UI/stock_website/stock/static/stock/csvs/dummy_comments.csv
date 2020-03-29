@@ -1,0 +1,24 @@
+expert_id	comments	company_code	sentiment	target
+279	Buy Mandhana Ind;target of Rs 335	MANDHANA	buy	335.0	
+357	Buy IOC;target of Rs 425	IOC	buy	425.0
+357	Buy Kalpataru Power;target of Rs 234	KALPATPOWR	buy	234.0
+357	Hold Balkrishna Industries;target of Rs 625	METAZINC	hold	625.0
+301	Accumulate Bata;target of Rs 556	BATAINDIA	buy	556.0
+526	Nifty may open on negative note	NIFTY	sell	-1
+357	Buy Timken;target of Rs 594	TIMKEN	buy	594.0
+262	Buy KNR Construct;target of Rs 706	KNRCON	buy	706.0
+747	Sell Siemens;target of Rs 750	SIEMENS	sell	750.0
+748	Buy Sun Pharma;target of Rs 940	SUNPHARMA	buy	940.0
+748	Sell Bank of Baroda; target of Rs 113	BANKBARODA	sell	113.0
+748	Hold ITC;target of Rs 350	ITC	hold	350.0
+526	See Nifty to open on negative note	NIFTY	sell	-1
+279	Buy APL Apollo;target of Rs 710	APLAPOLLO	buy	710.0
+279	Buy Talwalkars Fitn;target of Rs 220	TALWALKARS	buy	220.0
+279	Buy Rane Madras; target of Rs 320	RML	buy	320.0
+301	Accumulate Finolex Cables;target of Rs 262	FINCABLES	buy	262.0
+357	Buy Syngene;target of Rs 445	SYNGENE	buy	445.0
+357	Buy Tata Comm;target of Rs 500	TATACOMM	buy	500.0
+
+
+
+
