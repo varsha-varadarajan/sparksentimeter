@@ -1,6 +1,8 @@
 # sparksentimeter
 Sentiment analysis project
 
+![High level design](https://github.com/varsha-varadarajan/sparksentimeter-images/blob/master/overall-architecture.png)
+
 ## Folders
 1. Folder StockAnalysis - all data acquisition and data pre-processing code.
 
@@ -35,6 +37,8 @@ Sentiment analysis project
 3. my_metrics.py : Calculate metrics of system
 
 4. NLTK.py : NLTK Bayes code
+
+![Architecture](https://github.com/varsha-varadarajan/sparksentimeter-images/blob/master/architecture.png)
 
 ## StockAnalysis/myModel
 This is where the Bayes prediction model is stored. New incoming comments are classified based on this saved model.
